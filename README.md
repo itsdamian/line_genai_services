@@ -56,9 +56,13 @@
 
 ## 技術棧
 
-- **框架**: Django, Django REST Framework
-- **通訊**: RESTful API, gRPC
+- **框架**: FastAPI
+- **ORM**: SQLAlchemy
+- **資料驗證**: Pydantic
+- **通訊**: RESTful API
 - **資料庫**: PostgreSQL
 - **快取**: Redis
 - **外部API**: Line Messaging API, OpenAI API, Gemini API
-- **部署**: Docker, Kubernetes 
+- **部署**: Docker, Docker Compose
+- **HTTP客戶端**: httpx
+- **環境變數**: python-dotenv 
